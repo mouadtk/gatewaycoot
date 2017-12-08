@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "20"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171206101839",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "parent",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "accountManagercoot",
+    "searchEngine": false
+}
